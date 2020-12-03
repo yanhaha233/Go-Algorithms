@@ -4,7 +4,7 @@ package cocktailsort
 	CocktailSort   鸡尾酒排序->双向冒泡排序.
 */
 
-func CocktailSort(arr []int) (arrs []int) {
+func CocktailSort(arr []int) []int {
 	tmp := 0
 
 	for i := 0; i < len(arr)/2; i++ {
